@@ -1,0 +1,14 @@
+<html>
+    <head>
+    	<title>Cargar archivos al servidor</title>
+    </head>
+    
+    <body>
+    	<!--Cuando se suben archivos al servidor es nesesario especificar el tipo de encriptado
+        en este caso el "multipart/form-data"-->
+    	<form action="cargar.php" method="post" enctype="multipart/form-data">
+        	<input name="archivo" type="file" size="100"/>
+            <input name="enviar" type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>

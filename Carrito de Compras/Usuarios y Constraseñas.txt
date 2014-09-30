@@ -1,0 +1,7 @@
+para usar este sistema puede ingresar con los usuarios ya registrados
+
+usuario: rmn
+contraseña: 1234
+
+usuario: saul
+contraseña: 1234

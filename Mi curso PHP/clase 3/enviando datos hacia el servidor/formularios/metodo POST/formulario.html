@@ -1,0 +1,45 @@
+<html>
+    <head>
+    	<title>Formularios</title>
+    </head>
+    
+    <body>
+    	<form action="resivir_formulario.php" method="post" name="formulario">
+        	<p>
+              <label>Nombre</label>
+              <input type="text" name="nombre"/>
+            </p>
+            <p>
+                <label>Contrase&ntilde;a</label>
+                <input type="password" name="pass"/>
+            </p>
+            <p>
+            	<label>Caracteristicas</label>
+            </p>
+            <p>
+              <textarea cols="15" rows="5" name="caracteristicas"></textarea>
+            </p>
+            <p>
+            	<select name="menu">
+                	<option value="" selected>Seleccione una opcion</option>
+            		<option value="mexico">mexico</option>
+                </select>
+            </p>
+            <p>
+				<fieldset><legend>radios button</legend>
+                	<label><input name="sexo" type="radio" value="M" checked/>Masculino</label>
+                    <br/>
+                    <label><input name="sexo" type="radio" value="F"/>Femenino</label>
+          		</fieldset>
+            </p>
+            <p>
+				<fieldset><legend>checkbox button</legend>
+                	<label><input name="idioma[]" type="checkbox" value="E"/>Espa&ntilde;ol</label>
+                    <br/>
+                    <label><input name="idioma[]" type="checkbox" value="I"/>Ingles</label>
+          		</fieldset>
+            </p>
+            <p><input type="submit" name="enviar" value="Enviar"/> </p>
+        </form>
+    </body>
+</html>

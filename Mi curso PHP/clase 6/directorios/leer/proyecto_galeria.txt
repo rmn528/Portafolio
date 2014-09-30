@@ -1,0 +1,40 @@
+*GALERIA
+	
+	*OBJETIVOS:
+	
+		* MOSTRAR LAS IMAGENES EN UNA GALERIA
+		* administra imagenes (cliente-dueño)
+		* subir (imagen/descripcion)
+		* cambiar (imagen/descripcion)
+		* eliminar (imagen y descripcion)
+	
+	*PROCESOS PRINCIPALES
+		1.1 * sistema de acceso (login)---------------------------------------formulario, validador
+		    * precargador
+		    * sistema para redimensionar imagenes
+		    * sistema para hipervincular imagenes (galeria)
+		1.2 * panel de control (cliente-dueño) (subir,cambios, eliminar)
+				+ menu/barra de navegacion
+				+ formulario subir
+					- cargar imagen y/o desc. al servidor
+				+ formulario cambios
+					- actualizar la imagen y/o desc. actual en servidor
+					- listado de imagenes y desc. actuales
+				+ formulario eliminar
+					- borrar imagenes y desc. en el serv.
+					- listado de imagenes y desc. actuales
+		    * sistema para acomodar imagenes
+	
+	*MODULOS
+		* main.php
+		* login.php
+		* validador.php
+
+		* menu.php
+		* f_subir.php
+			+ cargar.php
+		* f_cambios.php
+			+ actualizar.php
+			+ listado.php
+		* f_eliminar.php
+			+ borrra.php
